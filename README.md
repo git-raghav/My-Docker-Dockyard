@@ -54,6 +54,10 @@ Each project is containerized and serves a unique purpose. Click on the links to
 - **Main Goal:** Deploying a ML model to predict Titanic survival chances.
 - **Key Focus:** ML inference inside containers, lightweight model deployment.
 
+### 🔟 [Minicube with Docker](Minicube%20with%20Docker/)
+- **Main Goal:** Set up Minikube with Docker on Windows for running Kubernetes clusters locally in a Docker container.
+- **Key Focus:** Kubernetes management, local cluster setup, and Docker integration on Windows.
+
 ---
 ## 🛠️ Getting Started
 1. Clone this repository:
