@@ -58,6 +58,10 @@ Each project is containerized and serves a unique purpose. Click on the links to
 - **Main Goal:** Set up Minikube with Docker on Windows for running Kubernetes clusters locally in a Docker container.
 - **Key Focus:** Kubernetes management, local cluster setup, and Docker integration on Windows.
 
+### 1️⃣1️⃣ [Running a Streamlit App in Docker on AWS EC2](Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/)
+- **Main Goal:** Deploy a Streamlit app using Docker on an AWS EC2 instance for scalability and accessibility.
+- **Key Focus:** Dockerized application deployment, AWS hosting, and container orchestration.
+
 ---
 ## 🛠️ Getting Started
 1. Clone this repository:
