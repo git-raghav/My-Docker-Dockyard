@@ -37,37 +37,41 @@ Each project is containerized and serves a unique purpose. Click on the links to
 - **Main Goal:** Running MySQL inside Docker for database management.
 - **Key Focus:** Setting up MySQL, persistent storage, and database interactions.
 
-### 5️ [Portfolio Project](Portfolio%20Project/)
-- **Main Goal:** A personal portfolio deployed using Docker.
-- **Key Focus:** Web hosting inside a container, static site deployment.
-
-### 6️ [Simple-Hello-App](Simple-Hello-App/)
+### 5 [Simple-Hello-App](Simple-Hello-App/)
 - **Main Goal:** A beginner-friendly Dockerized Streamlit app.
 - **Key Focus:** Introduction to Docker and app containerization.
 
-### 7️ [Streamlit & PostgreSQL, docked](Streamlit%20%26%20PostgreSQL,%20docked/)
+### 6 [Streamlit & PostgreSQL, docked](Streamlit%20%26%20PostgreSQL,%20docked/)
 - **Main Goal:** Connecting a Streamlit app to PostgreSQL inside a Docker container.
 - **Key Focus:** Database-backed web applications in Docker.
 
-### 8️ [Streamlit-Visualization-App](Streamlit-Visualization-App/)
+### 7 [Streamlit-Visualization-App](Streamlit-Visualization-App/)
 - **Main Goal:** Deploying an interactive visualization tool with Streamlit.
 - **Key Focus:** Data visualization, Docker networking, and frontend-backend interactions.
 
-### 9️ [Titanic-Survival](titanic-survival/)
+### 8 [Titanic-Survival](titanic-survival/)
 - **Main Goal:** Deploying a ML model to predict Titanic survival chances.
 - **Key Focus:** ML inference inside containers, lightweight model deployment.
 
-### 10 [Minicube with Docker](Minicube%20with%20Docker/)
+### 9 [Minicube with Docker](Minicube%20with%20Docker/)
 - **Main Goal:** Set up Minikube with Docker on Windows for running Kubernetes clusters locally in a Docker container.
 - **Key Focus:** Kubernetes management, local cluster setup, and Docker integration on Windows.
 
-### 11 [Running a Streamlit App in Docker on AWS EC2](Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/)
+### 10 [Running a Streamlit App in Docker on AWS EC2](Running%20a%20Streamlit%20App%20in%20Docker%20on%20AWS%20EC2/)
 - **Main Goal:** Deploy a Streamlit app using Docker on an AWS EC2 instance for scalability and accessibility.
 - **Key Focus:** Dockerized application deployment, AWS hosting, and container orchestration.
 
-### 12 [Microservice Architecture with Docker Swarm](Microservice%20Architecture%20with%20Docker%20Swarm/)
+### 11 [Microservice Architecture with Docker Swarm](Microservice%20Architecture%20with%20Docker%20Swarm/)
 - **Main Goal:** Deploying a microservice architecture using Docker Swarm for distributed containerization.
 - **Key Focus:** Docker networking, container orchestration, and microservice architecture.
+
+### 12 [Bakery Foundation on Windows](Bakery%20Foundation%20on%20Windows/)
+- **Main Goal:** Set up Packer on Windows to create a custom Amazon Machine Image (AMI) with Python 3.9.
+- **Key Focus:** Image automation, AWS infrastructure provisioning, and hands-on cloud deployment.
+
+### 13 [Microservice with Minicube and Kubectl](Microservice%20with%20Minicube%20and%20Kubectl/)
+- **Main Goal:** Deploy microservices using Kubernetes and Minikube for efficient orchestration.
+- **Key Focus:** Service discovery, load balancing, and containerized microservices deployment.
 
 ---
 ## 🛠️ Getting Started
