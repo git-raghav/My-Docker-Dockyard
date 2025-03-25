@@ -139,6 +139,8 @@ cd streamlit-postgres-docker
 ```sh
 docker-compose up --build -d
 ```
+![Screenshot](/Streamlit%20&%20PostgreSQL,%20docked/assets/image1.png)
+![Screenshot](/Streamlit%20&%20PostgreSQL,%20docked/assets/image2.png)
 
 -   `--build` → Ensures fresh build.
 -   `-d` → Runs in detached mode.
@@ -146,6 +148,7 @@ docker-compose up --build -d
 ### 3️⃣ Access the Streamlit App
 
 Open [http://localhost:8501](http://localhost:8501) in your browser.
+![Screenshot](/Streamlit%20&%20PostgreSQL,%20docked/assets/image.png)
 
 ### 4️⃣ Check PostgreSQL Database
 
