@@ -3,7 +3,7 @@
 A microservices-based web application that demonstrates Docker Swarm's service resilience through replicas. The application allows users to write and view shared notes across three different pages, each running as a separate service.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/git-raghav/My-Docker-Dockyard/main/Microservice%20Architecture%20with%20Docker%20Swarm/assets/docker-to-swarm-1.png" alt="Docker to Swarm" width="300" />
+  <img src="https://github.com/git-raghav/My-Docker-Dockyard/blob/edit/Microservice%20Architecture%20with%20Docker%20Swarm/assets/docker-to-swarm-1.png?raw=true" alt="Docker to Swarm" width="300" />
 </p>
 
 
