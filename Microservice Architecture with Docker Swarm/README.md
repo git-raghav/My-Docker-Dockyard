@@ -89,19 +89,23 @@ project/
 ```bash
 docker swarm init
 ```
-![image](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-25%20231817.png)
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-25%20231817.png)
 
 2. Build and deploy the services:
 
 ```bash
 docker stack deploy -c docker-compose.yml shared-notes
 ```
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20000159.png)
 
 3. Access the application:
 
 -   Page 1: http://localhost:8081/page1.html
 -   Page 2: http://localhost:8082/page2.html
 -   Page 3: http://localhost:8083/page3.html
+
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20001218.png)
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20001235.png)
 
 ## Service Scaling
 
@@ -114,6 +118,7 @@ docker service ls
 # View detailed status of a specific service
 docker service ps shared-notes_backend
 ```
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20000609.png)
 
 ### Scale Services Up/Down
 
@@ -136,6 +141,7 @@ docker service update --replicas 4 shared-notes_backend
 # Scale frontend service to 3 replicas
 docker service update --replicas 3 shared-notes_page1
 ```
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20003607.png)
 
 ### Scaling Guidelines
 
@@ -152,6 +158,7 @@ docker service update --replicas 3 shared-notes_page1
 ```bash
 docker service ls
 ```
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20000609.png)
 
 2. Test backend resilience:
 
@@ -160,6 +167,8 @@ docker service ls
 docker service update --replicas 2 shared-notes_backend
 # The application continues working with remaining replicas
 ```
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20002139.png)
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20002321.png)
 
 3. Test frontend resilience:
 
@@ -168,6 +177,8 @@ docker service update --replicas 2 shared-notes_backend
 docker service update --replicas 1 shared-notes_page1
 # The page remains accessible through the other replica
 ```
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20002525.png)
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20002634.png)
 
 ## API Endpoints
 
@@ -183,6 +194,7 @@ To remove the application:
 ```bash
 docker stack rm shared-notes
 ```
+![Screenshot](/Microservice%20Architecture%20with%20Docker%20Swarm/assets/Screenshot%202025-03-26%20003934.png)
 
 ## Key Features
 
