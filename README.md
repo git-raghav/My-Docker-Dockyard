@@ -69,6 +69,10 @@ Each project is containerized and serves a unique purpose. Click on the links to
 - **Main Goal:** Set up Packer on Windows to create a custom Amazon Machine Image (AMI) with Python 3.9.
 - **Key Focus:** Image automation, AWS infrastructure provisioning, and hands-on cloud deployment.
 
+### 13 [Microservice with Minicube and Kubectl](Microservice%20with%20Minicube%20and%20Kubectl/)
+- **Main Goal:** Deploy microservices using Kubernetes and Minikube for efficient orchestration.
+- **Key Focus:** Service discovery, load balancing, and containerized microservices deployment.
+
 ---
 ## 🛠️ Getting Started
 1. Clone this repository:
