@@ -1,0 +1,54 @@
+version: "3.8"
+
+services:
+    backend:
+        image: shared-notes-backend:latest
+        build: ./backend
+        ports:
+            - "3000:3000"
+        deploy:
+            replicas: 3
+            restart_policy:
+                condition: on-failure
+        networks:
+            - app-network
+
+    page1:
+        image: shared-notes-frontend-page1:latest
+        build: ./frontend
+        ports:
+            - "8081:80"
+        deploy:
+            replicas: 2
+            restart_policy:
+                condition: on-failure
+        networks:
+            - app-network
+
+    page2:
+        image: shared-notes-frontend-page2:latest
+        build: ./frontend
+        ports:
+            - "8082:80"
+        deploy:
+            replicas: 2
+            restart_policy:
+                condition: on-failure
+        networks:
+            - app-network
+
+    page3:
+        image: shared-notes-frontend-page3:latest
+        build: ./frontend
+        ports:
+            - "8083:80"
+        deploy:
+            replicas: 2
+            restart_policy:
+                condition: on-failure
+        networks:
+            - app-network
+
+networks:
+    app-network:
+        driver: overlay
