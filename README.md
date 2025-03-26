@@ -29,7 +29,7 @@ Each project is containerized and serves a unique purpose. Click on the links to
 - **Main Goal:** Ensuring data persistence in containers.
 - **Key Focus:** Named volumes, bind mounts, and stateful containerization.
 
-### 3️ [Evidently AI-streamlit app](Evidently%20AI-streamlit%20app/streamlit-app/)
+### 3️ [Evidently AI-streamlit app](Evidently%20AI-streamlit%20app/)
 - **Main Goal:** Deploying a Streamlit app with Evidently AI for model monitoring.
 - **Key Focus:** ML model monitoring, containerized visualization, and Streamlit integration.
 
