@@ -73,6 +73,10 @@ Each project is containerized and serves a unique purpose. Click on the links to
 - **Main Goal:** Deploy microservices using Kubernetes and Minikube for efficient orchestration.
 - **Key Focus:** Service discovery, load balancing, and containerized microservices deployment.
 
+### 13 [Jenkins-Orchestration](Jenkins-Orchestration/)
+- **Main Goal:** Deploying a CI/CD pipeline using Jenkins, Docker, and GitHub.
+- **Key Focus:** Jenkins as a CI/CD tool, Docker for containerization, and GitHub integration.
+
 ---
 ## 🛠️ Getting Started
 1. Clone this repository:
