@@ -52,7 +52,7 @@ This project demonstrates a simple Python application with a complete CI/CD pipe
    ```bash
    docker-compose up -d
    ```
-   ![image](/assets/Screenshot%202025-03-27%20133739.png)
+   ![image](/Jenkins-Orchestration/assets/Screenshot%202025-03-27%20133739.png)
 
 2. Get initial admin password:
    ```bash
