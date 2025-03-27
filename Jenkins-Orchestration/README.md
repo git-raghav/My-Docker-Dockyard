@@ -1,5 +1,9 @@
 # Python Application with Jenkins CI/CD Pipeline
 
+<div align="center">
+  <img src="/Jenkins-Orchestration/assets/Jenkins.png" alt="Jenkins Logo" width="140" height="140">
+</div>
+
 ## 1. Project Overview
 
 This project demonstrates a simple Python application with a complete CI/CD pipeline using Jenkins, Docker, and GitHub. The application provides a command-line tool that adds two numbers together, with automated testing and continuous integration/deployment.
