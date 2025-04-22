@@ -84,8 +84,8 @@ This file automatically scales your application based on CPU usage:
 
     ```bash
     minikube addons enable metrics-server
-    ```
-    ![image](/assets/Screenshot%202025-04-18%20205511.png)
+    ```/Minicube%20with%20Docker
+    ![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20205511.png)
 
 4. **Build and Push Docker Image**
 
@@ -93,9 +93,9 @@ This file automatically scales your application based on CPU usage:
     docker build -t raghavcodes/raghav-web-app:latest .
     docker push raghavcodes/raghav-web-app:latest
     ```
-    ![image](/assets/Screenshot%202025-04-18%20200035.png)
-    ![image](/assets/Screenshot%202025-04-18%20200230.png)
-    ![image](/assets/Screenshot%202025-04-18%20200401.png)
+    ![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20200035.png)
+    ![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20200230.png)
+    ![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20200401.png)
 
 5. **Deploy to Kubernetes**
     ```bash
@@ -103,7 +103,7 @@ This file automatically scales your application based on CPU usage:
     kubectl apply -f service.yaml
     kubectl apply -f hpa.yaml
     ```
-    ![image](/assets/Screenshot%202025-04-18%20200754.png)
+    ![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20200754.png)
 
 ## Testing and Monitoring
 
@@ -115,8 +115,8 @@ For proper testing and monitoring, you'll need to run multiple commands in separ
 minikube service raghav-web-app-service --url
 ```
 
-![image](/assets/Screenshot%202025-04-18%20201431.png)
-![image](/assets/Screenshot%202025-04-18%20201507.png)
+![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20201431.png)
+![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20201507.png)
 
 Keep this terminal open as it maintains the connection to your application.
 
@@ -126,7 +126,7 @@ Keep this terminal open as it maintains the connection to your application.
 hey -z 5m -c 50 http://127.0.0.1:51200
 ```
 
-![image](/assets/Screenshot%202025-04-18%20210516.png)
+![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20210516.png)
 
 ### Terminal 3: Monitor HPA
 
@@ -134,7 +134,7 @@ hey -z 5m -c 50 http://127.0.0.1:51200
 kubectl get hpa -w
 ```
 
-![image](/assets/Screenshot%202025-04-18%20210851.png)
+![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20210851.png)
 
 What to observe:
 
@@ -148,7 +148,7 @@ What to observe:
 kubectl get pods -w
 ```
 
-![image](/assets/Screenshot%202025-04-18%20210929.png)
+![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20210929.png)
 
 What to observe:
 
@@ -198,8 +198,8 @@ kubectl delete -f hpa.yaml
 minikube stop
 ```
 
-![image](/assets/Screenshot%202025-04-18%20211806.png)
-![image](/assets/Screenshot%202025-04-18%20211941.png)
+![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20211806.png)
+![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20211941.png)
 
 ## Troubleshooting
 
