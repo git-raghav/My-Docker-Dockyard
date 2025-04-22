@@ -1,7 +1,7 @@
 # Minikube with Docker (Kubernetes Demonstration)
 
 <div align="center">
-    <img src="/assets/Kubernetes.png" alt="kubernetes Logo" style="width: 200px; height: auto;">
+    <img src="/Minicube with Docker/assets/Kubernetes.png" alt="kubernetes Logo" style="width: 200px; height: auto;">
 </div>
 
 This project demonstrates a simple web application deployed on Kubernetes with autoscaling capabilities. The application is a Node.js web server that displays a welcome message.
