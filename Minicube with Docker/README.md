@@ -84,7 +84,7 @@ This file automatically scales your application based on CPU usage:
 
     ```bash
     minikube addons enable metrics-server
-    ```/Minicube%20with%20Docker
+    ```
     ![image](/Minicube%20with%20Docker/assets/Screenshot%202025-04-18%20205511.png)
 
 4. **Build and Push Docker Image**
