@@ -16,6 +16,8 @@ Docker is an open-source platform that allows developers to build, package, and 
 - **Docker Compose** 🌟: A tool for defining and running multi-container Docker apps.
 - **Docker Swarm** 🐳: A distributed container orchestration platform.
 - **Docker Hub** 🐳: A public registry for Docker images.
+- **Docker CLI** 🐳: A command-line interface for interacting with Docker.
+- **Kubernetes** 🐳: A container orchestration platform for managing complex applications.
 
 ---
 ## 📌 Projects
